@@ -1,0 +1,65 @@
+
+
+
+html{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.content{
+    color: hsl(0, 0%, 50%);
+    font-size: 18px;
+    font-weight: 500;
+}
+.wrapper{
+    border: 3px solid black;
+    max-width: 400px;
+    border-radius: 14px;
+    box-shadow: 13px 12px 0px 1px hsl(0, 0%, 7%);
+    margin:20px auto;
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+.card-wrapper{
+    margin: 20px;
+   
+}
+
+.card-img{
+       border-radius: 15px;
+       align-items: center;
+       overflow: hidden;
+       width: 100%;
+
+}
+
+button{
+   background-color: hsl(47, 88%, 63%);
+   padding: 10px;
+   border: none;
+   border-radius: 4px;
+   font-size: 16px;
+   font-weight: 800;
+   width: 30%;
+}
+
+.avatar{
+    display: flex;
+    gap: 15px;
+}
+    
+.name-greg{
+    font-weight: 800;
+    font-size: 18px;
+    columns: hsl(0, 0%, 7%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
