@@ -1,11 +1,12 @@
-
-
-
 html{
     background-color: hsl(47, 88%, 63%);
     font-family: "Figtree", sans-serif;
+    margin: 0;
+    padding: 0;
     
 }
+
+
 
 h1{
     font-size: 30px;
@@ -52,6 +53,7 @@ button{
 
 .avatar{
     display: flex;
+    align-items: center;
     gap: 15px;
 }
     
@@ -63,3 +65,67 @@ button{
 
 .attribution { font-size: 13px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media only screen and (max-width: 600px) {
+    
+    .wrapper {
+        margin:10px;
+        max-width: 300px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .content {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .name-greg {
+        font-size: 16px;
+    }
+    .attribution {
+        margin-top:20px;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .wrapper {
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .content {
+        font-size: 15px;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    .name-greg {
+        font-size: 17px;
+    }
+    .attribution{
+        display: inline;
+        margin-left: 30px;
+        
+    }
+}
