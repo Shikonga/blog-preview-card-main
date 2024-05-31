@@ -5,7 +5,12 @@ html{
     padding: 0;
     
 }
-
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 
 h1{
@@ -63,7 +68,7 @@ button{
     columns: hsl(0, 0%, 7%);
 }
 
-.attribution { font-size: 13px; text-align: center; }
+.attribution { font-size: 13px; text-align: center; display: inline; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
@@ -124,7 +129,6 @@ button{
         font-size: 17px;
     }
     .attribution{
-        display: inline;
         margin-left: 30px;
         
     }
